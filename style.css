@@ -1,0 +1,142 @@
+
+        /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Overall vibe */
+body {
+    background: #ffffff;
+    color: #062e63;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    background: #0a4fa3;
+    justify-content: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background: #ffffff;
+    color: #0a4fa3;
+}
+
+/* Headings */
+h1 {
+    color: #0a4fa3;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    padding: 10px 0;
+    color: #062e63;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 72, 150, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background: #0a4fa3;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #d6e6ff;
+}
+
+tbody tr:nth-child(even) {
+    background: #f0f5ff;
+}
+
+tbody tr:hover {
+    background: #e0ecff;
+}
+
+/* Lists */
+ul {
+    margin-left: 40px;
+    color: #062e63;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* Details Section */
+details {
+    background: #f0f5ff;
+    border-left: 4px solid #0a4fa3;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+details summary {
+    cursor: pointer;
+    color: #0a4fa3;
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background: #0a4fa3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.apply{
+    background-color: #1366ec;
+    color: white;
+    text-align: center;
+    margin-left: 875px;
+    height: 60px;
+    width: 130px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.apply:hover{
+    background-image: linear-gradient(to bottom, rgb(193, 230, 244), rgb(172, 200, 227));
+    color: #888888
+}
+
+.apply:active{
+    opacity: 0.3;
+}

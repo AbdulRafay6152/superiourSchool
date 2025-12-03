@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Base reset and typography */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fbfd;
+            color: #002147;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003366;
+            padding: 1rem 2rem;
+            text-align: right;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header a:hover {
+            color: #a3c2e4;
+        }
+
+        /* Centered contact info */
+        .contact-info {
+            max-width: 600px;
+            margin: 3rem auto;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        h4 {
+            color: #003366;
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+
+        /* Footer-style bottom margin */
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Responsive header links on small screens */
+        @media (max-width: 600px) {
+            header {
+                text-align: center;
+                padding: 1rem;
+            }
+
+            header a {
+                display: block;
+                margin: 0.5rem 0;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="about.html" target="_parent">About Us</a>
+        <a href="index.html" target="_blank">Main Page</a>
+    </header>
+
+    <main class="contact-info">
+        <h4>Our Gmail: dontknow@gmail.com</h4>
+        <h4>Our Phone No: 01234567890</h4>
+    </main>
+</body>
+</html>
